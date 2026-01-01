@@ -9,7 +9,7 @@ from timeeval.algorithms import subsequence_if,copod
 from timeeval.params import FixedParameters
 
 # Load dataset metadata
-dm = DatasetManager(Path("data"), create_if_missing=False)
+dm = DatasetManager(Path("skabdata"), create_if_missing=False)
 
 # Select datasets and algorithms
 datasets = dm.select()
