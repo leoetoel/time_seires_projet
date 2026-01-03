@@ -1,0 +1,22 @@
+Starting evaluation of experiment Fast-MCD-skab-other_15-4329c14cc18b90be6d9bd752ca7ab93f-1
+=============================================
+
+Performing training for SEMI_SUPERVISED algorithm Fast-MCD
+Running container 'ghcr.io/timeeval/fast_mcd:0.3.0' with env='{}' in ExecutionType.TRAIN mode.
+Restricting container to 24.0 CPUs and 14.715 GB RAM
+
+#### Docker container logs ####
+
+###############################
+
+Performing execution for SEMI_SUPERVISED algorithm Fast-MCD
+Running container 'ghcr.io/timeeval/fast_mcd:0.3.0' with env='{}' in ExecutionType.EXECUTE mode.
+Restricting container to 24.0 CPUs and 14.715 GB RAM
+
+#### Docker container logs ####
+
+###############################
+
+Scoring algorithm Fast-MCD with ROC_AUC metrics
+Calculating ROC_AUC
+  = 0.6609515086278941
