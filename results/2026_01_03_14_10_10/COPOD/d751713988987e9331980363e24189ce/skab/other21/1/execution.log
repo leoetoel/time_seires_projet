@@ -1,0 +1,15 @@
+Starting evaluation of experiment COPOD-skab-other21-d751713988987e9331980363e24189ce-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm COPOD
+Running container 'ghcr.io/timeeval/copod:0.4.0' with env='{}' in ExecutionType.EXECUTE mode.
+Restricting container to 24.0 CPUs and 14.715 GB RAM
+
+#### Docker container logs ####
+Config: AlgorithmArgs(customParameters=CustomParameters(random_state=42), dataInput='/data/21.test.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+
+###############################
+
+Scoring algorithm COPOD with ROC_AUC metrics
+Calculating ROC_AUC
+  = 0.43040372042865804

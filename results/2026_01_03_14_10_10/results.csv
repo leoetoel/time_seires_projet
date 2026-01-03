@@ -1,0 +1,2 @@
+algorithm,collection,dataset,algo_training_type,algo_input_dimensionality,dataset_training_type,dataset_input_dimensionality,status,error_message,repetition,hyper_params_id,hyper_params,execute_main_time,execute_preprocess_time,execute_postprocess_time,ROC_AUC
+COPOD,skab,other21,UNSUPERVISED,MULTIVARIATE,UNSUPERVISED,MULTIVARIATE,Status.OK,,1,d751713988987e9331980363e24189ce,{},4.614440679550171,,,0.43040372042865804
