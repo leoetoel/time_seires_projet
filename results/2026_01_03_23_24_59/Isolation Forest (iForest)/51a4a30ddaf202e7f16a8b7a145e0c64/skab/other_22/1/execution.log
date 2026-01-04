@@ -1,0 +1,15 @@
+Starting evaluation of experiment Isolation Forest (iForest)-skab-other_22-51a4a30ddaf202e7f16a8b7a145e0c64-1
+=============================================
+
+Performing execution for UNSUPERVISED algorithm Isolation Forest (iForest)
+Running container 'ghcr.io/timeeval/iforest:0.3.1' with env='{}' in ExecutionType.EXECUTE mode.
+Restricting container to 24.0 CPUs and 14.715 GB RAM
+
+#### Docker container logs ####
+Config: AlgorithmArgs(customParameters=CustomParameters(n_trees=100, max_samples=256, max_features=1.0, bootstrap=False, random_state=42, verbose=0, n_jobs=1), dataInput='/data/other_22.test.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+
+###############################
+
+Scoring algorithm Isolation Forest (iForest) with ROC_AUC metrics
+Calculating ROC_AUC
+  = 0.34566690584389703

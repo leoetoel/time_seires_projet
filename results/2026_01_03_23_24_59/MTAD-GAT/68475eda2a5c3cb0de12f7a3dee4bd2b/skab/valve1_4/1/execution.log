@@ -1,0 +1,36 @@
+Starting evaluation of experiment MTAD-GAT-skab-valve1_4-68475eda2a5c3cb0de12f7a3dee4bd2b-1
+=============================================
+
+Performing training for SEMI_SUPERVISED algorithm MTAD-GAT
+Running container 'ghcr.io/timeeval/mtad_gat:0.3.0' with env='{}' in ExecutionType.TRAIN mode.
+Restricting container to 24.0 CPUs and 14.715 GB RAM
+
+#### Docker container logs ####
+/usr/local/lib/python3.7/site-packages/torch/autograd/__init__.py:132: UserWarning: CUDA initialization: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx (Triggered internally at  /pytorch/c10/cuda/CUDAFunctions.cpp:100.)
+  allow_unreachable=True)  # allow_unreachable flag
+AlgorithmArgs(customParameters=CustomParameters(mag_window_size=3, score_window_size=40, threshold=3, context_window_size=5, kernel_size=7, learning_rate=0.001, epochs=10, batch_size=64, window_size=30, gamma=0.8, latent_size=300, linear_layer_shape=[300, 300, 300], early_stopping_delta=0.05, early_stopping_patience=10, split=0.8, random_state=42), dataInput='/data/skab_anomaly_free.train.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='train', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+Epoch 1
+Epoch 2
+Epoch 3
+Epoch 4
+Epoch 5
+Epoch 6
+Epoch 7
+Epoch 8
+Epoch 9
+Epoch 10
+
+###############################
+
+Performing execution for SEMI_SUPERVISED algorithm MTAD-GAT
+Running container 'ghcr.io/timeeval/mtad_gat:0.3.0' with env='{}' in ExecutionType.EXECUTE mode.
+Restricting container to 24.0 CPUs and 14.715 GB RAM
+
+#### Docker container logs ####
+AlgorithmArgs(customParameters=CustomParameters(mag_window_size=3, score_window_size=40, threshold=3, context_window_size=5, kernel_size=7, learning_rate=0.001, epochs=10, batch_size=64, window_size=30, gamma=0.8, latent_size=300, linear_layer_shape=[300, 300, 300], early_stopping_delta=0.05, early_stopping_patience=10, split=0.8, random_state=42), dataInput='/data/valve1_4.test.csv', dataOutput='/results/docker-algorithm-scores.csv', executionType='execute', modelInput='/results/model.pkl', modelOutput='/results/model.pkl')
+
+###############################
+
+Scoring algorithm MTAD-GAT with ROC_AUC metrics
+Calculating ROC_AUC
+  = 0.20543567604108254
